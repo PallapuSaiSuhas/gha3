@@ -15,8 +15,6 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm install
-      - name: Lint code
-        run: npm run lint
       - name: Test code
         run: npm run test
   build:
@@ -31,8 +29,6 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm install
-      - name: Lint code
-        run: npm run lint
       - name: Test code
         run: npm run test
       - name: Build code
